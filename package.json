@@ -7,6 +7,10 @@
   "bin": {
     "mactrace": "./index.ts"
   },
+  "files": [
+    "index.ts",
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/anthropics/mactrace"
