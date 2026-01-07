@@ -12,6 +12,8 @@ $ mactrace ls
  ...
 ```
 
+![](./.github/image.png)`
+
 ## Install
 
 ```bash
