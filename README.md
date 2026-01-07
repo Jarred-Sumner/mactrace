@@ -56,6 +56,12 @@ TIMESTAMP  DURATION  PROCESS/PID      SYSCALL(args...) = RESULT
 
 ## Examples
 
+### Trace a Bun app
+
+```bash
+mactrace -- bun run server.ts
+```
+
 ### Trace a Node.js app
 
 ```bash
@@ -65,7 +71,7 @@ mactrace -- node server.js
 ### Trace with output to file
 
 ```bash
-mactrace -o trace.log -- python script.py
+mactrace -o trace.log -- bun run script.ts
 ```
 
 ### Find what files a program opens
@@ -116,3 +122,7 @@ This gives you syscall tracing without needing to disable SIP or use `dtrace` di
 ## License
 
 MIT
+
+---
+
+This project was 100% vibe coded with [Claude Code](https://claude.com/claude-code). I haven't read the code.
